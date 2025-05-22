@@ -20,8 +20,8 @@ export default defineNitroConfig({
   compatibilityDate: "2025-05-13",
   publicAssets: [
     {
-      baseURL: "/",
-      dir: "public/assets", 
+      baseURL: "/assets",
+      dir: ".nitro/app/assets", 
     },
   ],
   bundledStorage: ['templates'],
